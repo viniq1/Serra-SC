@@ -1,0 +1,86 @@
+body   {
+    font-family: Roboto, sans-serif ;
+
+}
+
+.navbar {
+    background-color:rgba(61,180,74, 0.9);
+}
+
+.nav .nav-link.active {
+    background-color: #ED1C24;
+    color: white;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: white;   
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+#imagens-carousel img,
+#carousel {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+#datas img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#tabela-regioes img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.section-title {
+    font-family: Roboto, cursive;
+}
+
+#tabela-regioes .navbar-brand:hover {
+    color: #ED1C24;
+}
+
+.section-title span {   
+    color: #ED1C24;
+}
+
+#datas{
+    background-color: rgba(61,180,74, 0.2);
+}
+
+.text-colored, .text-colored:hover {
+    color: #ED1C24;
+}
+
+#direcoes button {
+    background-color: #3DB44A;
+    color: white;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #3DB44A;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+    margin-top: 8px;
+}
