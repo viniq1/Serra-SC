@@ -1,6 +1,12 @@
 body   {
-    font-family: Roboto, sans-serif ;
+    font-family: Roboto, sans-serif;
+}
 
+#brasao {
+    width: 80px;
+    height: 60px;
+    margin-right: 20px;
+    object-fit: cover;
 }
 
 .navbar {
@@ -36,6 +42,12 @@ body   {
     object-fit: cover;
 }
 
+#paisagens>.container,
+#datas .container {
+    background-color: rgb(245, 245, 245) !important;
+    border-radius: 20px;
+}
+
 #tabela-regioes img {
     width: 100%;
     height: 200px;
@@ -43,7 +55,7 @@ body   {
 }
 
 .section-title {
-    font-family: Roboto, cursive;
+    font-family: "Moderustic", sans-serif;
 }
 
 #tabela-regioes .navbar-brand:hover {
@@ -52,10 +64,6 @@ body   {
 
 .section-title span {   
     color: #ED1C24;
-}
-
-#datas{
-    background-color: rgba(61,180,74, 0.4);
 }
 
 .text-colored, .text-colored:hover {
@@ -71,16 +79,35 @@ body   {
     color: #3DB44A;
 }
 
-.social-links li {
+.social-links li,
+#lista-mapas li {
     list-style: none;
     display: inline;
 }
 
-.social-links li a {
+.social-links li a,
+#lista-mapas li a {
     text-decoration: none;
+}
+
+#social-icon {
+    color: #3DB44A;
+}
+
+#lista-mapas li a {
+    color: red;
+}
+
+#gps-icon {
+    color: #3DB44A;
 }
 
 .error {
     color: red;
     margin-top: 8px;
+}
+
+#footer {
+    background-color: rgba(61,180,74, 0.9);
+    color: white;
 }
